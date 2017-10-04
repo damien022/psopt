@@ -29,7 +29,7 @@ Author:    Professor Victor M. Becerra
 **********************************************************************************************/
 
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 // Numerical Gradient Functions
 

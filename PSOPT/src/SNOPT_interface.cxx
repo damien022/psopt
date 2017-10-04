@@ -1,4 +1,4 @@
-#include "psopt.h"
+#include "../include/psopt.h"
 
 
 #ifdef USE_SNOPT

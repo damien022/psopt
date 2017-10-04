@@ -28,7 +28,7 @@ Author:    Professor Victor M. Becerra
 
 **********************************************************************************************/
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 
 adouble dot(adouble* x, adouble* y, int n)

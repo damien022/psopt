@@ -29,7 +29,7 @@ Author:    Professor Victor M. Becerra
 **********************************************************************************************/
 
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 
 void determine_scaling_factors_for_variables(Sol& solution, Prob& problem, Alg& algorithm)

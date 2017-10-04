@@ -28,7 +28,7 @@ Author:    Professor Victor M. Becerra
 
 **********************************************************************************************/
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 void psopt_print(Workspace* workspace, char* msg)
 {
@@ -566,7 +566,8 @@ void print_solution_summary(Prob& problem, Alg& algorithm, Sol& solution, Worksp
       }
 
 #ifdef UNIX
-     fprintf(outfile,"\n\n>>>>> Rank of parameter covariance matrix: %i ", rank(Cp));
+     //fprintf(outfile,"\n\n>>>>> Rank of parameter covariance matrix: %i ", rank(Cp));
+        fprintf(outfile,"\n\n>>>>> ERROR IN THE CODE THERE, GO AND CHECK print.cxx line 570");
 #endif
       fprintf(outfile,"\n\n>>> 95 percent statistical confidence limits on estimated parameters ");
       fprintf(outfile,"\nPhase\tParameter\t(Low Confidence Limit) \t(Value) \t\t(High Confidence Limit)");

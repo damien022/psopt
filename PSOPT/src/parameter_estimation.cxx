@@ -29,7 +29,7 @@ Author:    Professor Victor M. Becerra
 **********************************************************************************************/
 
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 adouble endpoint_cost_for_parameter_estimation(adouble* initial_states, adouble* final_states, adouble* parameters,adouble& t0, adouble& tf, adouble* xad, int iphase, Workspace* workspace)
 {

@@ -29,7 +29,7 @@ Author:    Professor Victor M. Becerra
 **********************************************************************************************/
 
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 
 void  define_initial_nlp_guess(DMatrix& x0, DMatrix& lambda, Sol& solution, Prob& problem, Alg& algorithm, Workspace* workspace)

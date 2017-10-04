@@ -29,7 +29,7 @@ Author:    Professor Victor M. Becerra
 **********************************************************************************************/
 
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 void euler_propagate( void (*dae)(adouble* derivatives, adouble* path, adouble* states,
          adouble* controls, adouble* parameters, adouble& time,

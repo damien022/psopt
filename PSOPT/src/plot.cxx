@@ -64,7 +64,7 @@ _CRTIMP  int * __cdecl errno(void) { static int i=0; return &i; };
 }
 #endif
 
-#include "psopt.h"
+#include "../include/psopt.h"
 #include <math.h>
 #include <string.h>
 #include <time.h>

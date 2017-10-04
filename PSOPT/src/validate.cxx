@@ -29,7 +29,7 @@ Author:    Professor Victor M. Becerra
 **********************************************************************************************/
 
 
-#include "psopt.h"
+#include "../include/psopt.h"
 
 
 void validate_user_input(Prob& problem, Alg& algorithm, Workspace* workspace)

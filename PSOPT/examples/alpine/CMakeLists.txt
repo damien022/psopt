@@ -1,0 +1,8 @@
+project(alpine)
+message(STATUS "Building Project " ${PROJECT_NAME})
+SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${PSOPT_GCC_COMPILE_FLASGS}" )
+include_directories(${PSOPT_INCLUDE_DIRS})
+message(PSOPT_INCLUDE_DIRS --> ${PSOPT_INCLUDE_DIRS})
+link_directories(${PSOPT_LIBRARY_DIRS})
+add_executable(${PROJECT_NAME} alpine.cxx)
+target_link_libraries(${PROJECT_NAME} ${PSOPT_LIBRARIES})
